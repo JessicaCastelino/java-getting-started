@@ -21,7 +21,7 @@ public class MainTest {
 	@Test
 	public void getStudentName() {
 		Student s1=new Student(1,"Jessica",24);
-		assertEquals("getStudentAge", "Jessica",s1.getName);
+		assertEquals("getStudentAge", "Jessica",s1.getName());
 	}
 
 }
